@@ -5,6 +5,11 @@ console.log(ppint.getPuzzledPintForMonth(2016, 1));
 console.log();
 console.log();
 
+console.log(ppint.getPuzzledPintForMonth(2016, 11));
+
+console.log();
+console.log();
+
 console.log(ppint.getNextPuzzledPint(new Date()));
 console.log(ppint.getNextPuzzledPint(new Date(2016, 3, 13, 0, 0, 0, 0)));
 

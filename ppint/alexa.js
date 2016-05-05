@@ -4,8 +4,8 @@
 // the month that Puzzled Pint falls on, otherwise return 0.
 function getPuzzledPintDateException(year, month)
 {
-    if (2008 == year && 11 == month)
-        return 16;
+    if (2016 == year && 11 == month) // Push back a week from election night
+        return 15;
     return 0;
 }
 
